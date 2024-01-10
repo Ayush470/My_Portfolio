@@ -10,6 +10,7 @@ const HeroImg = () => {
       <img className="intro-img" src={IntroImg} alt="IntroImg" />
     </div>
     <div className="content">
+      <h1>AYUSH PRAJAPATI</h1>
       <p>HI, I'M A WEB ENTHUSIAST</p>
       <h1>Full Stack Developer</h1>
       <div>
