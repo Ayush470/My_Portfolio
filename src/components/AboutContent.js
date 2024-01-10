@@ -10,7 +10,7 @@ const AboutContent = () => {
   return <div className="about">
     <div className="left">
       <h1>Who Am I?</h1>
-      <p>I am a full stack developer proficient in MERN stack. Besides, I also enjoy solving coding problems.</p>
+      <p>I have done Bachelor of Technology in Civil Engineering from Indian Institute of Technology Kanpur. I am a full stack developer proficient in MERN stack. Besides, I also enjoy solving coding problems.</p>
       <Link to = "/contact">
         <button className="btn">CONTACT</button>
       </Link>
