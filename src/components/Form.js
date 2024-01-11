@@ -21,6 +21,7 @@ const Form = () => {
       }, (error) => {
           console.log(error.text);
       });
+      form.current.reset();
   };
   return <div className="form">
     <form ref={form} onSubmit={sendEmail}>
