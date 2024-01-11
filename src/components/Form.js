@@ -10,10 +10,10 @@ const Form = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_ns6b2za',
-      'template_wyha9im',
+      process.env.SERVICE_ID,
+      process.env.TEMPLATE_ID,
       form.current,
-      'd4iAZ3gyQcECgsmpA'
+      process.env.PUBLIC_KEY,
       )
       .then((result) => {
           console.log(result.text);
