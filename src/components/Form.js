@@ -32,7 +32,7 @@ const Form = () => {
       <label>Subject</label>
       <input type="text" name="subject"></input>
       <label>Message</label>
-      <textarea rows="6" placeholder="Type your message here..." name="message"/>
+      <textarea rows="5" placeholder="Type your message here..." name="message"/>
       {/* <button className="btn">Submit</button> */}
       <input type="submit" value="Send" className="btn"/>
     </form>
